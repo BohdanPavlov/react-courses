@@ -1,0 +1,17 @@
+.new-course-authors-list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  gap: 20px;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

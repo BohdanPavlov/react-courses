@@ -1,0 +1,13 @@
+.add-duration {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__preview {
+    margin-top: 15px;
+    font-size: 1.3em;
+  }
+}

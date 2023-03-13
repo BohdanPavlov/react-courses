@@ -1,0 +1,14 @@
+.add-author {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__button {
+    align-self: center;
+    padding: 5px 10px;
+    margin-top: 15px;
+  }
+}

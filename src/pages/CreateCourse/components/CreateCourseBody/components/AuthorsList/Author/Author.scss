@@ -1,0 +1,13 @@
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__name {
+    font-size: 1.2em;
+  }
+
+  &__button {
+    padding: 0 5px;
+  }
+}

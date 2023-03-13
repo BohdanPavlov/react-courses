@@ -1,0 +1,11 @@
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+
+  &__field {
+    width: 100%;
+    border: 2px solid #ffbd48;
+    padding: 5px 10px;
+  }
+}

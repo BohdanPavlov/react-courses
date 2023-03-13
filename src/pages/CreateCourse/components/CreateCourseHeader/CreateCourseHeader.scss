@@ -1,0 +1,28 @@
+.create-course-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border: 2px solid #88ff38;
+  padding: 10px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  &__input-block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__input {
+    flex: 0 1 40%;
+  }
+
+  &__button {
+    padding: 5px 15px;
+  }
+}

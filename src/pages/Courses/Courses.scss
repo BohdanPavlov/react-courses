@@ -1,0 +1,21 @@
+.courses {
+  display: flex;
+  flex-direction: column;
+
+  &-search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    &__button {
+      padding: 0 10px;
+    }
+  }
+
+  &-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+}

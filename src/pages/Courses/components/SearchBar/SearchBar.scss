@@ -1,0 +1,15 @@
+.search-bar {
+  flex: 0 1 50%;
+  display: flex;
+  gap: 20px;
+  font-size: 1.3em;
+
+  &__input {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  &__button {
+    padding: 5px 15px;
+  }
+}

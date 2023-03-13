@@ -1,0 +1,38 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  font-size: 1.4em;
+  position: relative;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2em;
+  }
+
+  &-body {
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+
+    &__description {
+      flex: 0 1 50%;
+    }
+
+    &-general {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      gap: 5px;
+    }
+  }
+
+  &__navigate {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color: black;
+    text-decoration: none;
+  }
+}

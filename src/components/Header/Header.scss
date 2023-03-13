@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #99c794;
+
+    &__controls {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__button {
+        font-size: 1.3em;
+        padding: 5px 10px;
+        transition: .5s;
+        background-color: transparent;
+        color: white;
+
+        &:hover {
+            background-color: #ff5b5b;
+            border: 2px solid black;
+        }
+    }
+}
+
+
